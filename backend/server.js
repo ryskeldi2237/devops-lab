@@ -8,7 +8,8 @@ app.use(cors());
 
 app.get("/api/hello", (req, res) => {
   res.json({
-    message: "Hello from backend V2!",
+    message: "Hello from backend!",
+this is broken
     version: "v2",
   });
 });

@@ -9,7 +9,7 @@ app.use(cors());
 app.get("/api/hello", (req, res) => {
   res.json({
     message: "Hello from backend!",
-    version: "v1",
+    version: "v2",
   });
 });
 
